@@ -1,0 +1,19 @@
+# Dependencies
+Gemfile.lock
+
+# Gem build artifacts
+*.gem
+pkg/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# macOS
+.DS_Store
+
+# Don't commit credentials (these are in ~/ but just in case)
+.basecamp.json
+.basecamp_token.json
